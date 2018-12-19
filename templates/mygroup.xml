@@ -1,5 +1,5 @@
 <templateSet group="mygroup">
-  <template name="&lt;abbreviation&gt;" value="*&#10;* @Description: &#10;* @param $params$  &#10;* @Return: $returns$&#10;* @Author: Mr.Deng &#10;* @Date: $date$ $time$&#10;*/" toReformat="false" toShortenFQNames="true">
+  <template name="&lt;abbreviation&gt;" value="*&#10;* @Description: &#10;* @param $params$  &#10;* @Return: $returns$&#10;* @Author: Mr.Deng &#10;* @Date: $date$ $time$&#10;*/" description="" toReformat="false" toShortenFQNames="true">
     <variable name="params" expression="methodParameters()" defaultValue="" alwaysStopAt="true" />
     <variable name="returns" expression="methodReturnType()" defaultValue="" alwaysStopAt="true" />
     <variable name="date" expression="date()" defaultValue="" alwaysStopAt="true" />
